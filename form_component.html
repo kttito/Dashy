@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Dashboard">
+    <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
+
+    <title>Adventure time: Dashboard</title>
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet" />
+    <link href="css/adventure-time-theme.css" rel="stylesheet">
+    <link href="css/adventure-time-theme-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div id="container">
+      <div id="topbar">
+        <a class="btn-menu" href="#menu"><i class=" fa fa-bars"></i></a>
+        <a class="topbar-title hidden-xs" href="#">AVENTURE TIME: DASHBOARD</a>
+        <a class="topbar-title hidden-sm hidden-md hidden-lg" href="#">ADV.TIME</a>
+        <ul class="top-menu">
+          <li><a class="logout" href="#">Logout</a></li>
+        </ul>
+      </div>
+      <div id="sidebar" class="hidden-xs">
+        <ul class="sidebar-menu">
+          <li>
+            <div class="user">
+              <img src="img/profile_avatar.png" alt="">
+              <h5>Bonnibel Bubblegum</h5>
+            </div>
+          </li>
+          <li><a href="dashboard.html"><i class="fa fa-dashboard"></i>Dashboard</a></li>
+          <li><a href="buttons.html"><i class="fa fa-desktop"></i>Buttons</a></li>
+          <li><a href="progress.html"><i class="fa fa-desktop"></i>Progress Bars</a></li>
+          <li><a href="form_component.html"><i class="fa fa-cogs"></i>Forms</a></li>
+          <li><a href="basic_tables.html"><i class="fa fa-th"></i>Data Tablets</a></li>
+          <li><a href="gallery.html"><i class="fa fa-list-alt"></i>Gallery</a></li>
+          <li><a href="login.html"><i class="fa fa-book"></i>Login Page</a></li>
+        </ul>
+      </div>
+      <div id="main-content">
+        <div class="wrapper">
+          <div class="row">
+            <div class="col-sm-12">
+              <h3>> Form Components</h3>
+              <div class="box-section">
+                <h4>> Forms Elements</h4>
+                  
+                      
+                      
+                       
+                        <div class="panel-body">
+                          <form class="form-horizontal row-border" action="#">
+                            <div class="form-group">
+                              <label class="col-md-2 control-label">Default</label>
+                              <div class="col-md-10">
+                                <input name="regular" class="form-control" type="text">
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label class="col-md-2 control-label">Help text</label>
+                              <div class="col-md-10">
+                                <input name="regular" class="form-control" type="text">
+                                <span class="help-block">A block of help text that breaks onto a new line and may extend beyond one line.</span>
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label class="col-md-2 control-label">Password</label>
+                              <div class="col-md-10">
+                                <input class="form-control" name="pass" type="password">
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label class="col-md-2 control-label">With placeholder</label>
+                              <div class="col-md-10">
+                                <input class="form-control" name="placeholder" placeholder="placeholder" type="text">
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label class="col-md-2 control-label">Disabled field</label>
+                              <div class="col-md-10">
+                                <input name="disabled" disabled="disabled" value="disabled" class="form-control" type="text">
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label class="col-md-2 control-label">Read only field</label>
+                              <div class="col-md-10">
+                                <input class="form-control" name="readonly" readonly="" value="read only" type="text">
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label class="col-md-2 control-label">Predefined value</label>
+                              <div class="col-md-10">
+                                <input name="regular" value="http://" class="form-control" type="text">
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label class="col-md-2 control-label">With icon</label>
+                              <div class="col-md-10">
+                                <input name="regular" class="form-control" type="text">
+                                <i class="icon-pencil input-icon"></i>
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label for="labelfor" class="col-md-2 control-label">Clickable label</label>
+                              <div class="col-md-10">
+                                <input name="labelfor" id="labelfor" class="form-control" type="text">
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label class="col-md-2 control-label">Column sizing</label>
+                              <div class="col-md-10">
+                                <div class="row">
+                                  <div class="col-xs-3">
+                                    <input class="form-control" placeholder=".col-xs-3" type="text">
+                                  </div>
+                                  <div class="col-xs-5">
+                                    <input class="form-control" placeholder=".col-xs-5" type="text">
+                                  </div>
+                                  <div class="col-xs-4">
+                                    <input class="form-control" placeholder=".col-xs-4" type="text">
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="form-group has-success">
+                              <label class="col-md-2 control-label">Input success</label>
+                              <div class="col-md-10">
+                                <input class="form-control" id="inputSuccess" placeholder="Input Success" type="text">
+                                <i class="icon-pencil input-icon success"></i>
+                              </div>
+                            </div>
+                            <div class="form-group has-warning">
+                              <label class="col-md-2 control-label">Input warning</label>
+                              <div class="col-md-10">
+                                <input class="form-control" id="inputWarning" placeholder="Input Warning" type="text">
+                                <i class="icon-pencil input-icon warning"></i>
+                              </div>
+                            </div>
+                            <div class="form-group has-error">
+                              <label class="col-md-2 control-label">Input error</label>
+                              <div class="col-md-10">
+                                <input class="form-control" id="inputError" placeholder="Input Error" type="text">
+                                <i class="icon-pencil input-icon error"></i>
+                              </div>
+                            </div>
+                          </form>
+                        </div>
+                      
+                    
+                  
+              </div><!--zqui terminaaaaaaaaaaa-->
+              <div class="box-section">
+                <h4>> Inline Forms</h4>
+              </div>
+              <div class="box-section">
+                <h4>> input Message</h4>
+              </div>
+              <div class="box-section">
+                <h4>> Checkboxes, Radios & Selects</h4>
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox" id="blankCheckbox" value="option1" aria-label="...">
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="blankRadio" id="blankRadio1" value="option1" aria-label="...">
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    
+    <!-- js placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/common-scripts.js"></script>
+  </body>
+</html>
