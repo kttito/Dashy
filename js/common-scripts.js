@@ -38,3 +38,10 @@ $('.fa-bars').click(function () {
         $("#container").removeClass("sidebar-closed");
     }
 });
+
+$(document).ready(function()) {
+    $('#sidebar ul.sidebar-menu li a').click(function()) {
+        $('#sidebar ul.sidebar-menu li a').removeClass('active');
+        $(this).addClass('active'),
+    });
+});

@@ -967,6 +967,7 @@ label {
     border-color: #f0f0f0;
     color: #838383;
 }
+
 .sidebar-toggle-box {
     float: left;
     padding-right: 15px;
@@ -1090,7 +1091,7 @@ label {
 }
 
 .box1 {
-    padding: 15px;
+    padding: 20px;
     text-align: center;
     color: #989898;
     border-bottom: 1px solid #989898;
@@ -1284,6 +1285,7 @@ ul.sidebar-menu{
     margin-bottom: 10px;
 }
 /*****active*******/
-a:active {
+#sidebar ul.sidebar-menu li.active>a
+{
     background-color: #fff;
 }
