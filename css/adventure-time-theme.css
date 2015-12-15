@@ -1285,7 +1285,3 @@ ul.sidebar-menu{
     margin-bottom: 10px;
 }
 /*****active*******/
-#sidebar ul.sidebar-menu li.active>a
-{
-    background-color: #fff;
-}
