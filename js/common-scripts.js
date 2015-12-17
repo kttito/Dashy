@@ -18,6 +18,7 @@ $(function() {
 });
 
 $('.fa-bars').click(function () {
+    //alert('funciona!!');
     if ($('#sidebar > ul').is(":visible") === true) {
         $('#main-content').css({
             'margin-left': '0px'
@@ -39,9 +40,9 @@ $('.fa-bars').click(function () {
     }
 });
 
-$(document).ready(function()) {
+/*$(document).ready(function() {
     $('#sidebar ul.sidebar-menu li a').click(function()) {
         $('#sidebar ul.sidebar-menu li a').removeClass('active');
         $(this).addClass('active'),
     });
-});
+});*/
